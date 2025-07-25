@@ -102,9 +102,6 @@ int main() {
         th.join();
     }
 
-    // Сортировка результатов по времени
-    sort(results.begin(), results.end(), compareByTime);
-
     // Вывод итоговых результатов
     cout << "\nFinal results:\n";
     cout << "---------------------\n";
